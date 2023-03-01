@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/cart/add" method="post">
+        <div class="flower-step">
+            <div>
+                <ul>
+                    <li><a href="#step-1">Langkah 1</a></li>
+                    <li><a href="#step-2">Langkah 2</a></li>
+                    <li><a href="#step-3">Langkah 3</a></li>
+                    <li><a href="#step-4">Langkah 4</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div id="panel-1">
+                        <div id="step-1">
+                            <div class="steps">
+                                <div class="container">
+                                    <h4>Tanggal Pengiriman</h4>
+                                    <div>
+                                        <button>Day1</button>
+                                        <button>Day2</button>
+                                        <button>Day3</button>
+                                        <button>Day4</button>
+                                    </div>
+                                    <div>
+                                        <button>Day1</button>
+                                        <button>Day2</button>
+                                        <button>Day3</button>
+                                        <button>Day4</button>
+                                    </div>
+                                </div>
+                                <div class="container">
+                                    <h4>Waktu Pengiriman</h4>
+                                    <div>
+                                        <button>Siang</button>
+                                        <button>Sore</button>
+                                    </div>
+                                </div>
+                                <div>
+                                    <button>Selanjutnya</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="panel-2">
+                        <div id="step-2">
+                            <div class="steps">
+                                <h4>Alamat Penerima</h4>
+                                <div class="form-group">
+                                    <label for="">Pilih Kota Pengiriman</label>
+                                    <select name="" id="">
+                                        <option value disabled selected hidden>Kota Pengiriman</option>
+                                        <option value="Jakarta">Jakarta</option>
+                                        <option value="bekasi">Bekasi</option>
+                                        <option value="bogor">Bogor</option>
+                                        <option value="depok">Depok</option>
+                                        <option value="Tangerang">Tangerang</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <div>
+                                        <label >Masukkan Nama penerima</label>
+                                        <input type="text" placeholder="Nama Penerima">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div>
+                                        <label >Masukkan alamat penerima</label>
+                                        <textarea placeholder="Nama Gedung, Nama Jalan, kelurahan dsb..." cols="30" rows="10"></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div>
+                                        <label >Masukkan Kode pos penerima</label>
+                                        <input type="number" placeholder="14231">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div>
+                                        <label >Nomer telephone penerima</label>
+                                        <input type="tel" placeholder="0812xxx..">
+                                    </div>
+                                </div>
+                                <div>
+                                    <button>Selanjutnya</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="panel-3">
+                        <div id="step-3">
+                            <div class="steps">
+                                <h4>Free Kartu Ucapan</h4>
+                                <div>
+                                    <div class="card-ucapan">
+                                        <label for="">Insert your Photo</label>
+                                        <div class="steps-card-preview">Upload Photo Div</div>
+                                        <hr>
+                                        <div class="steps-card-input">
+                                            <div class="form-group">
+                                                <label for="">Dear</label>
+                                                <input type="text" placeholder="Nama Penerima">
+                                            </div>
+                                            <div class="form-group">
+                                                <textarea type="text" placeholder="Tulis Ucapan anda"></textarea>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="">Yours Sincerely,</label>
+                                                <input type="text" placeholder="Nama Pengirim">
+                                            </div>
+                                            <div>
+                                                <button>Selanjutnya</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
